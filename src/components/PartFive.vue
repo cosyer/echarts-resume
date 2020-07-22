@@ -3,8 +3,9 @@
     <h3 class="text-center text-top">工作经验</h3>
     <p>
       <a
-        href="http://www.aminfo.com.cn/"
+        href="https://www.fujitsu.com/cn/"
         target="_blank"
+        class="pointer"
       >南京富士通南大软件技术有限公司</a>
       <span class="text-small">| 2018 年 9 月—至今</span>
     </p>
@@ -16,6 +17,7 @@
       <a
         href="https://www.qianmi.com/"
         target="_blank"
+        class="pointer"
       >江苏千米网络科技股份有限公司</a>
       <span class="text-small">| 2017 年 8 月—2017 年 8 月</span>
     </p>
@@ -27,6 +29,7 @@
       <a
         href="http://www.aminfo.com.cn/"
         target="_blank"
+        class="pointer"
       >重庆新媒农信科技有限公司(实习)</a>
       <span class="text-small">| 2016 年 6 月—2017 年 7 月</span>
     </p>
@@ -85,5 +88,8 @@ a:hover {
 .text-small {
   font-size: 0.9em;
   color: rgb(253, 239, 239);
+}
+.pointer {
+  cursor: pointer;
 }
 </style>
