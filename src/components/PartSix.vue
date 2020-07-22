@@ -1,7 +1,7 @@
 <template>
   <div :class="partSix">
     <h3 class="text-center">编程技能</h3>
-    <p class="font-small"><span class="font-bold">前端：</span>HTML5、CSS3、ES6、React、Vue、微信小程序、TypeScript</p>
+    <p class="font-small"><span class="font-bold">前端：</span>HTML5、CSS3、ES6、React、Vue、Angular、微信小程序、TypeScript</p>
     <p class="font-small"><span class="font-bold">后端：</span>Node、Java</p>
     <p class="font-small"><span class="font-bold">其他：</span>MongoDB、MySQL</p>
   </div>

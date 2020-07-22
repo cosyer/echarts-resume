@@ -78,14 +78,14 @@ export default {
             radius: [30, 110],
             roseType: "area",
             data: [
-              { value: 15, name: "HTML5" },
+              { value: 20, name: "HTML5" },
               { value: 15, name: "CSS3" },
-              { value: 20, name: "JavaScript" },
-              { value: 20, name: "React" },
+              { value: 25, name: "JavaScript" },
+              { value: 25, name: "React" },
               { value: 20, name: "Vue" },
               { value: 15, name: "Node" },
-              { value: 25, name: "微信小程序" },
-              { value: 15, name: "其他" }
+              { value: 15, name: "微信小程序" },
+              { value: 10, name: "其他" }
             ]
           }
         ],
