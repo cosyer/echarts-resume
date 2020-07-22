@@ -27,31 +27,35 @@ export default {
 
       // 排行前五城市
       let myFirendCity = [
-        { name: "广州", value: ["113.23", "23.16", "9"] },
-        { name: "深圳", value: ["114.07", "22.62", "12"] },
-        { name: "上海", value: ["121.48", "31.22", "10"] },
-        { name: "西安", value: ["108.95", "34.27", "4"] },
-        { name: "北京", value: ["116.46", "39.92", "12"] }
+        { name: "广州", value: ["113.23", "23.16", "1"] },
+        { name: "深圳", value: ["114.07", "22.62", "8"] },
+        { name: "上海", value: ["121.48", "31.22", "8"] },
+        { name: "西安", value: ["108.95", "34.27", "1"] },
+        { name: "北京", value: ["116.46", "39.92", "3"] },
+        { name: "南京", value: ["118.78", "32.07", "10"] },
+        { name: "杭州", value: ["120.15", "30.28", "3"] }
       ];
 
       // 好友分布省份
       let myFriendProvince = [
         { name: "山东", value: 1 },
         { name: "四川", value: 1 },
-        { name: "广东", value: 21 },
+        { name: "广东", value: 1 },
         { name: "广西", value: 1 },
-        { name: "北京", value: 12 },
+        { name: "北京", value: 5 },
         { name: "甘肃", value: 1 },
-        { name: "上海", value: 10 },
+        { name: "上海", value: 3 },
         { name: "陕西", value: 4 },
         { name: "湖北", value: 1 },
         { name: "湖南", value: 1 },
         { name: "山西", value: 1 },
         { name: "辽宁", value: 2 },
-        { name: "江苏", value: 1 },
-        { name: "河北", value: 3 },
+        { name: "江苏", value: 10 },
+        { name: "河北", value: 1 },
         { name: "海南", value: 1 },
-        { name: "河南", value: 1 }
+        { name: "河南", value: 1 },
+        { name: "杭州", value: 3 },
+        { name: "重庆", value: 5 }
       ];
 
       myChart.setOption({
