@@ -14,7 +14,7 @@ export default {
   data() {
     return {
       partFour: "part-four",
-      curWidth: 0
+      curWidth: 0,
     };
   },
   beforeMount() {
@@ -39,15 +39,15 @@ export default {
           text: "文章成就统计",
           // 标题文本样式
           textStyle: {
-            color: "#fff"
+            color: "#fff",
           },
           // 标题位置
-          x: "center"
+          x: "center",
         },
         // 图形布局
         grid: {
           // 距离底部高度
-          bottom: "20"
+          bottom: "20",
         },
         // 横轴
         xAxis: {
@@ -57,30 +57,30 @@ export default {
             "Github 提交：\n627",
             "Github Star数：\n77",
             "博客文章数：\n147",
-            "博客总字数：\n294.9k"
+            "博客总字数：\n294.9k",
           ],
           axisLine: {
             lineStyle: {
-              color: "#fff"
-            }
+              color: "#fff",
+            },
           },
           axisLabel: {
             // 横轴信息全部显示
-            interval: 0
-          }
+            interval: 0,
+          },
         },
         // 纵轴
         yAxis: {
           type: "value",
           axisLine: {
             lineStyle: {
-              color: "#fff"
-            }
+              color: "#fff",
+            },
           },
           axisLabel: {
             // 横轴信息全部显示
-            interval: 0
-          }
+            interval: 0,
+          },
         },
         // 图形系列
         series: [
@@ -94,18 +94,18 @@ export default {
               show: true,
               position: "top",
               color: "#fff",
-              formatter: "{b}"
+              formatter: "{b}",
             },
             // 柱条样式
             itemStyle: {
-              color: "deepskyblue"
+              color: "deepskyblue",
             },
-            zlevel: 1
-          }
-        ]
+            zlevel: 1,
+          },
+        ],
       });
-    }
-  }
+    },
+  },
 };
 </script>
 
@@ -119,7 +119,7 @@ export default {
 }
 .part-four-responsive {
   width: 100%;
-  height: 310px;
+  height: 400px;
   border: 5px solid transparent;
   border-image: url("~@/./assets/img/border_image.png") 30 30 stretch;
   background: #18202d;

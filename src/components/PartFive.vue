@@ -43,7 +43,7 @@ export default {
   data() {
     return {
       partFive: "part-five",
-      curWidth: 0
+      curWidth: 0,
     };
   },
   beforeMount() {
@@ -52,7 +52,7 @@ export default {
     if (this.curWidth < 1600) {
       this.partFive = "part-five-responsive";
     }
-  }
+  },
 };
 </script>
 
@@ -73,9 +73,11 @@ a:hover {
 }
 .part-five-responsive {
   width: 100%;
+  height: 400px;
   border: 40px solid transparent;
   border-image: url("~@/./assets/img/border_image.png") 30 30 stretch;
   background: #18202d;
+  overflow: scroll;
 }
 .text-center {
   text-align: center;
